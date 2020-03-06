@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tienda de Ropa Backend</title>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Fullstack example">
+    <meta name="keywords" content="Backend, NodeJS, Express, MongoDB, JavaScript">
+    <meta name="author" content="Álvaro del Moral Alcántara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Aclonica");
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Aclonica";
+        }
+
+        h1,
+        div,
+        img,
+        p {
+            margin-left: 50px;
+        }
+
+        div {
+            padding: 30px;
+        }
+
+        p {
+            padding: 10px;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        dl,
+        dd {
+            font-size: .9rem;
+        }
+
+        dd {
+            margin-bottom: 0.2em;
+            margin-left: 16em;
+        }
+
+        a:hover {
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="/favicon.png">
+    <h1>Tienda de Ropa Backend</h1>
+    <p><small><b>API RESTful</b></small></p>
+    <p><small><b>Código fuente en <a
+                    href="https://github.com/alvarodelmoral/ropaBackend">https://github.com/alvarodelmoral/ropaBackend</a></b></small>
+    </p>
+    <p>Se proporciona la siguiente API:</p>
+    <p><strong>PRENDAS</strong></p>
+    <div>
+        <dl>
+            <dt> /api/prenda &nbsp;&nbsp; POST </dt><dd> Crear prenda </dd>
+            <dt> /api/prenda &nbsp;&nbsp; GET ALL </dt><dd>Obtener todas las prendas.</dd> 
+            <dt> /api/prenda/<em>id</em> &nbsp;&nbsp; GET </dt><dd> Obtener prenda </dd>
+            <dt> /api/prenda/<em>id</em> &nbsp;&nbsp; PUT </dt><dd> Modificar prenda </dd>
+            <dt> /api/prenda/<em>id</em> &nbsp;&nbsp; DELETE </dt><dd> Eliminar prenda </dd>
+
+        </dl>
+    </div>
+    <p><strong>CLIENTES</strong></p>
+    <div>
+        <dl>
+            <dt> /api/clientes &nbsp;&nbsp; POST </dt><dd> Crear cliente </dd>
+            <dt> /api/clientes &nbsp;&nbsp; GET ALL </dt><dd>Obtener todos los clientes.</dd> 
+            <dt> /api/clientes/<em>id</em> &nbsp;&nbsp; GET </dt><dd> Obtener cliente </dd>
+            <dt> /api/clientes/<em>id</em> &nbsp;&nbsp; PUT </dt><dd> Modificar cliente </dd>
+            <dt> /api/clientes/<em>id</em> &nbsp;&nbsp; DELETE </dt><dd> Eliminar cliente </dd>
+        </dl>
+    </div>
+    <p><small>Frontend en <a href="https://ropafrontend.now.sh/">https://ropafrontend.herokuapp.com</a></small></p>
+</body>
+
+</html>

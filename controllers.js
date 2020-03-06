@@ -44,7 +44,7 @@ exports.createCliente = (req, res) => {
 }
 
 
-// ------ ARTÍCULOS
+// ------ PRENDAS
 
 exports.readPrendas = (req, res) => {
     Prenda.find({}, (err, data) => {

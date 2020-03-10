@@ -12,9 +12,3 @@ module.exports = {
   Cliente: Cliente,
   Prenda: Prenda
 }
-
-// Otra forma más corta:
-// module.exports = {
-//     Cliente,
-//     Prenda
-// }
